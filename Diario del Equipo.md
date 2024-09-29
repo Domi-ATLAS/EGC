@@ -1,26 +1,38 @@
-Nombre del proyecto, por ejemplo: salmorejo-hub
+# <strong>pescaito-hub</strong>
 
-grupo X (1, 2 o 3 según corresponda)
-Curso escolar: 2024/2025
-Asignatura: Evolución y gestión de la configuración
+* Grupo 1
 
-Miembros del grupo (en orden alfabético según apellido):
+* Curso escolar: 2024/2025
 
-Apellidos, nombre
-Apellidos, nombre
-Apellidos, nombre
-Apellidos, nombre
-Apellidos, nombre
+* Asignatura: Evolución y gestión de la configuración
 
-Resumen de total de reuniones empleadas en el equipo
+### <strong>Miembros del grupo:</strong>
 
-Total de reuniones: TR
-Total de reuniones presenciales: TRP
-Total de reuniones virtuales: TRV
-Total de tiempo empleado en reuniones presenciales: TTRP
-Total de tiempo empleado en reuniones virtuales: TTRP
+* Espinosa Naranjo, Pablo 
 
-Actas de acuerdos de las reuniones en las que se tomaron decisiones importantes
+* Garate Fuentes, Yesica 
+
+* Harana Mancilla, Rafael 
+
+* Pizarro López, Eduardo 
+
+* Portillo Sánchez, Alonso 
+
+* Sevillano Barea, Alejandro 
+
+### <strong>Resumen de total de reuniones empleadas en el equipo</strong>
+
+* Total de reuniones: TR
+* Total de reuniones presenciales: TRP
+* Total de reuniones virtuales: TRV
+* Total de tiempo empleado en reuniones presenciales: TTRP
+* Total de tiempo empleado en reuniones virtuales: TTRP
+
+### <strong>Actas de acuerdos de las reuniones en las que se tomaron decisiones importantes</strong>
+
+
+# (Estos son ejemplos)
+
 ACTA 2024-01
 (usar el formato año-identificador para poner número al acta. En dicho identificador se recomienda usar un número incremental. La primera reunión deberá tener los acuerdos tomados para el "acta fundacional" según lo que se refleja en el enunciado del proyecto)
 
