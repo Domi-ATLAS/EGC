@@ -1,11 +1,15 @@
-Nombre del proyecto, por ejemplo: salmorejo-hub
+# <strong>pescaito-hub</strong>
 
-grupo X (1, 2 o 3 según corresponda)
+Grupo 1
+
 Curso escolar: 2024/2025
+
 Asignatura: Evolución y gestión de la configuración
 
-Miembros del equipo (en orden alfabético según apellido): escala de 1 al 10 con el esfuerzo hecho en el proyecto (10 mayor implicación, 1 menor implicación)
-Miembro	Implicación:
+## Miembros del equipo: escala de 1 al 10 con el esfuerzo hecho en el proyecto (10 mayor implicación, 1 menor implicación)
+
+
+Miembro	| Implicación:
 
 | Apellidos, Nombre | [1-10] |
 |-------------------|--------|
@@ -17,9 +21,9 @@ Miembro	Implicación:
 | Sevillano Barea, nombre | [1-10] |
 
 
-Enlaces de interés:
-repositorio de código
-sistema desplegado
+## Enlaces de interés:
+repositorio de código:
+sistema desplegado:
 cualquier otro enlace de interés
 cualquier otro enlace de interés
 cualquier otro enlace de interés
@@ -35,23 +39,23 @@ cualquier otro enlace de interés
 | **TOTAL**          | tHH   | tXX     | tYY  | tZZ  | tII    | Descripción breve  |
 
 
-Integración con otros equipos
+## Integración con otros equipos
 Nombre-del-equipo: breve descripción de la integración
 
-Resumen ejecutivo (800 palabras aproximadamente)
+## Resumen ejecutivo (800 palabras aproximadamente)
 
 
-Descripción del sistema (1.500 palabras aproximadamente)
+## Descripción del sistema (1.500 palabras aproximadamente)
 
 
-Visión global del proceso de desarrollo (1.500 palabras aproximadamente)
+## Visión global del proceso de desarrollo (1.500 palabras aproximadamente)
 
 
-Entorno de desarrollo (800 palabras aproximadamente)
+## Entorno de desarrollo (800 palabras aproximadamente)
 
-Ejercicio de propuesta de cambio
+## Ejercicio de propuesta de cambio
 
-Conclusiones y trabajo futuro
+## Conclusiones y trabajo futuro
 
 
 https://github.com/EGCETSII/Entregables/wiki/Documento-del-proyecto
