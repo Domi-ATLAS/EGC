@@ -71,3 +71,23 @@ Acuerdo 2024-02-02: se han hecho una preselección de tareas que podemos elegir,
 Acuerdo 2024-02-03: se buscarán videos de Flask, para complementar las prácticas, y así tener una mejor percepción de la herramienta.
 Acuerdo 2024-02-04: el martes o incluso antes dependiendo se realizará la selección definitiva de tareas a realizar en el incremento, y por los integrantes que no tengan que estar pendientes de exámenes de convocatorias se pondrán a intentar realizar ya alguna tarea.
 Acuerdo 2024-02-05: se avisó de que las prácticas 1 y 4 de la asignatura deberán realizarce para el M1.
+
+# ACTA 2024-03
+
+Asistentes: Alejandro, Eduardo, Alonso, Yesica, Pablo
+
+Acuerdo 2024-03-01: cada uno tiene que elegir la tarea que crea que le puede resultar más fácil para así organizarnos mejor aunque finalmente vamos a ayudarnos entre todos.
+Acuerdo 2024-03-02: para el miércoles hay que llevar todas las prácticas hechas ya que nos van a comprobar que nos funcione todo en clase.
+Acuerdo 2024-03-03: vamos a elegir 6 tareas y ya veremos si ampliar cuando hagamos esas 6 tareas.
+Acuerdo 2024-03-04: hay que preguntar el miércoles si la tarea de FakeNodo es obligatoria hacerla o no.
+Acuerdo 2024-03-05: tenemos que mirar la gestión de commits, política de ramas(se encuentra en el repositorio que pasó Pizarro por #General en Discord) y la presentación(la pasará Pizarro) ya que se nos preguntará por ello el miércoles.
+
+# ACTA 2024-04
+
+Asistentes: Alejandro, Eduardo, Alonso, Yesica, Pablo
+
+Acuerdo 2024-03-01: se ha reunido para revisar la entrega del dia 23 de Octubre, punto por punto, dejando todo preparado y ayudando a las personas que tenian problemas con las prácticas.
+Acuerdo 2024-03-02: (tras la entrega) se tiene que enviar los prototipos que han faltado en la presentación, ajustar la politica de commits para que sea mas simple, dejar el repositorio del proyecto libre de commits anteriores y algunos miembros solucionar sus problemas con el chrome-driver que le impide pasar algunos tests. Para la próxima revisión tenemos que añadir un hub para comprobar los coventional commits.
+
+
+
