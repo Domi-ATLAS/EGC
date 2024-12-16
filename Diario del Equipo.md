@@ -22,34 +22,13 @@
 
 ### <strong>Resumen de total de reuniones empleadas en el equipo</strong>
 
-* Total de reuniones: TR
-* Total de reuniones presenciales: TRP
-* Total de reuniones virtuales: TRV
-* Total de tiempo empleado en reuniones presenciales: TTRP
-* Total de tiempo empleado en reuniones virtuales: TTRP
+* Total de reuniones: 4 + Reuniones semanales desde el M1 = 15 (solo se detallas las reuniones con decisiones importantes.
+* Total de reuniones presenciales: 0
+* Total de reuniones virtuales: 15
+* Total de tiempo empleado en reuniones presenciales: 0
+* Total de tiempo empleado en reuniones virtuales: 20 horas
 
 ### <strong>Actas de acuerdos de las reuniones en las que se tomaron decisiones importantes</strong>
-
-
-# (Estos son ejemplos)
-
-ACTA 2024-01
-(usar el formato año-identificador para poner número al acta. En dicho identificador se recomienda usar un número incremental. La primera reunión deberá tener los acuerdos tomados para el "acta fundacional" según lo que se refleja en el enunciado del proyecto)
-
-Asistentes: A, B, C
-Acuerdos tomados:
-Acuerdo 2024-01-01: redacción del acuerdo
-..
-Acuerdo 2024-01-NN: redacción del acuerdo
-ACTA 2024-02
-Asistentes: A, B, C
-Acuerdos tomados:
-Acuerdo 2024-02-01: redacción del acuerdo
-..
-Acuerdo 2024-02-NN: redacción del acuerdo
-
-
-
 
 # ACTA 2024-01
 
