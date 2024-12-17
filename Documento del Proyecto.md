@@ -217,17 +217,15 @@ Las políticas establecidas se han venido aplicando de manera progresiva en el p
  
 Para detalles completos sobre las políticas de gestión de commits, issues y ramas, consulta los documentos específicos alojados en la misma carpeta. 
 
-## Entorno de desarrollo
+## Entorno de desarrollo (800 palabras aproximadamente)
 
 El desarrollo del proyecto se llevó a cabo en un entorno configurado de manera robusta y eficiente, con el objetivo de asegurar la reproducibilidad, estabilidad y facilidad de colaboración entre los miembros del equipo. A continuación, se describen los componentes esenciales del entorno y las herramientas utilizadas:
 
 ### Sistema Operativo y Configuración General
 - **Sistema Operativo:** **Ubuntu 22.04 LTS**, utilizado de forma uniforme por todo el equipo para garantizar la compatibilidad.
 - **Lenguaje de Programación:** **Python 3.10 o superior**, aprovechando las características modernas del lenguaje.
-- **Framework Principal:** **Flask (versión 3.0.3)** como base para el desarrollo del backend.
-- **Base de Datos:**
-  - **MariaDB** para el entorno de producción y pruebas, con las bases de datos uvlhubdb y uvlhubdb_test.
-  - **SQLite** como opción ligera para pruebas locales y desarrollo rápido.
+- **Framework Principal:** **Flask** como base para el desarrollo del backend.
+- **Base de Datos:** **MariaDB** para el entorno de producción y pruebas, con las bases de datos uvlhubdb y uvlhubdb_test.
 - **Gestión de Dependencias:** Todas las dependencias se manejaron mediante el archivo **requirements.txt** para asegurar consistencia entre los diferentes entornos.
 
 ### Configuración de la Base de Datos
@@ -315,33 +313,30 @@ rosemary db:seed
 flask run --host=0.0.0.0 --reload --debug
 ```
 
-La aplicación estará disponible en: **http://localhost:5000.**
-
-#### ¡Cuidado!
-
-En caso de ocurrir algun error inesperado en el proceso de la misma que dificulte o inhabilite el despliegue del mismo, se deben ejecutar los siguientes comandos para **desinstalar MariaDB y empezar de 0 la instalación**:
-
-```bash
-sudo rm -rf /var/lib/mysql 
-sudo rm -rf /etc/mysql 
-sudo apt-get purge mariadb-server mariadb-client mariadb-common 
-sudo apt-get autoremove 
-sudo apt-get autoclean
-```
-
-Tras esto, se deberían repetir los comandos mencionados anteriormente correspondiente a la primera practica.
 
 ### Herramientas y Librerías Utilizadas
 
-- **Frameworks y Librerías Principales:**
-    - **Flask**: Framework principal para el desarrollo del servidor web.
-    - **Flask-Login, Flask-WTF y Flask-SQLAlchemy:** Extensiones de Flask utilizadas para la autenticación, validación de formularios y manejo de bases de datos mediante ORM.
-    - **SQLAlchemy**: Herramienta principal para la gestión de la base de datos.
 
-- **Pruebas y Validación:**
-    - **pytest y pytest-cov:** Herramientas para realizar pruebas unitarias y medir la cobertura del código.
-    - **Selenium**: Utilizada para automatizar pruebas de interfaz de usuario.
-    - **Locustfile**: Carga de datos para las pruebas
+ - **Frameworks Más Importantes:**
+
+        - **Flask:** Es el framework principal en este proyecto. Flask es un framework web ligero y flexible para desarrollar aplicaciones web en Python. Las extensiones mencionadas como Flask-SQLAlchemy, Flask-RESTful, Flask-Login, Flask-Mail, y Flask-Migrate sugieren que se están utilizando funcionalidades como autenticación, gestión de bases de datos, servicios RESTful, migraciones de bases de datos y manejo de correos electrónicos.
+
+        - **SQLAlchemy:** Este es un ORM (Object Relational Mapper) utilizado para interactuar con bases de datos de forma eficiente. Es esencial para manejar las conexiones y consultas a bases de datos en aplicaciones basadas en Flask.
+
+        - **BeautifulSoup y lxml:** Son bibliotecas muy útiles para el procesamiento de datos HTML y XML. BeautifulSoup se utiliza comúnmente para scraping web, es decir, para extraer contenido de páginas web, y lxml es otro parser eficiente para trabajar con XML y HTML.
+
+        - **pyOpenSSL y cryptography:** Son fundamentales si tu aplicación maneja conexiones seguras mediante HTTPS, encriptación de datos o autenticación, ya que proporcionan herramientas de seguridad y cifrado.
+
+        - **Flamapy:** Este es un conjunto de librerías relacionadas con Modelos de Aprendizaje Automático, FM (Feature Model), SAT (Satisfiability), etc. Las distintas versiones de Flamapy (como flamapy-fm o flamapy-sat) sugieren que se está trabajando en tareas relacionadas con la gestión de configuraciones, satisfacibilidad, y posiblemente la integración de modelos de características o estructuras complejas.
+
+    - **Pruebas Más Importantes:**
+
+        - **Pruebas Unitarias con pytest:** pytest es uno de los frameworks de prueba más utilizados. Se utiliza para escribir pruebas unitarias e integradas de forma sencilla. Con el plugin pytest-cov, puedes obtener información de cobertura del código, lo que permite identificar partes del código que no se están probando adecuadamente.pytest-html también es utilizado para generar informes HTML de las pruebas, lo que facilita la visualización de resultados.
+
+        - **Pruebas de UI con Selenium:** Selenium permite realizar pruebas de interfaz de usuario simulando la interacción del usuario con la web. Usando Selenium-wire, se pueden realizar pruebas también sobre las solicitudes HTTP/HTTPS y analizar la red.
+
+        - **Pruebas de Carga con Locust:** Locust permite simular una carga pesada en el sistema para verificar su rendimiento y escalabilidad bajo condiciones de estrés. A través de scripts en Python, se puede definir cómo se comportan los usuarios virtuales durante la prueba de carga.
+
 
 ## Ejercicio de propuesta de cambio
 
