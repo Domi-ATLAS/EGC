@@ -14,7 +14,7 @@ Miembro	| Implicación:
 | Apellidos, Nombre | [1-10] |
 |-------------------|--------|
 | Pizarro López, Eduardo | [8] |
-| Garate Fuentes, Yesica | [7] |
+| Garate Fuentes, Yesica | [6] |
 | Portillo Sánchez, Alonso | [10] |
 | Sevillano Barea, Alejandro | [10] |
 | Espinosa Naranjo, Pablo | [10] |
@@ -27,8 +27,8 @@ sistema desplegado: https://uvlhub-pescaito-hub.onrender.com
 
 | Miembro del equipo | Horas | Commits | LoC  | Test | Issues | Work Item          |
 |--------------------|-------|---------|------|------|--------|--------------------|
-| Pizarro López, Eduardo | HH    | 24      | 13993   | ZZ   | II     | Permitir al usuario recibir una contraseña si tiene la configuración necesaria y restablecer su contraseña y cambiar su contraseña una vez iniciada la sesion. Se intento implementar el WI search querys el cual se avanzo hasta el punto de poder buscar por cadenas exactas en el buscador de datasets  |
-| Garate Fuentes, Yesica | HH    | 44      | 1019   | ZZ   | II     |  Permitir al usuario recibir una contraseña si tiene la configuración necesaria y restablecer su contraseña. Se intento implementar el WI search querys el cual se avanzo hasta el punto de poder buscar por cadenas exactas en el buscador de datasets  |
+| Pizarro López, Eduardo | 80    | 24      | 13993   | 19   | 09     | Permitir al usuario recibir una contraseña si tiene la configuración necesaria y restablecer su contraseña y cambiar su contraseña una vez iniciada la sesion. Se intento implementar el WI search querys el cual se avanzo hasta el punto de poder buscar por cadenas exactas en el buscador de datasets  |
+| Garate Fuentes, Yesica | 55    | 44      | 1019   | 80   | 10     |  Permitir al usuario recibir una contraseña si tiene la configuración necesaria y restablecer su contraseña. Se intento implementar el WI search querys el cual se avanzo hasta el punto de poder buscar por cadenas exactas en el buscador de datasets  |
 | Portillo Sánchez, Alonso | 85    | 17      | 1210   | 11   | 18     | Realizacion de FakeNodo, además de incluir la vista del perfil de usuario y el filtro avanzado en la bsuqueda de datasets |
 | Sevillano Barea, Alejandro | 100    | 61      | 2769   | 9   | 16     | Construir un dataset seleccionando feature models y añadiendolos como si fuera un carrito y que se te descarguen automáticamente. Luego ese dataset se muestra en la lista de datasets. Realizacion de un dashboard para usuarios y para personas que no están registradas. |
 | Espinosa Naranjo, Pablo  | 90    | 31      | 1187   | 7   | 11     | Realizacion de FakeNodo, ha incluido una serie de botones que permiten que cada dataset pueda ser valorado entre 1 a 5 estrellas modificando la base de datos para su incorporación  |
