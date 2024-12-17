@@ -317,6 +317,20 @@ flask run --host=0.0.0.0 --reload --debug
 
 La aplicación estará disponible en: **http://localhost:5000.**
 
+#### ¡Cuidado!
+
+En caso de ocurrir algun error inesperado en el proceso de la misma que dificulte o inhabilite el despliegue del mismo, se deben ejecutar los siguientes comandos para **desinstalar MariaDB y empezar de 0 la instalación**:
+
+```bash
+sudo rm -rf /var/lib/mysql 
+sudo rm -rf /etc/mysql 
+sudo apt-get purge mariadb-server mariadb-client mariadb-common 
+sudo apt-get autoremove 
+sudo apt-get autoclean
+```
+
+Tras esto, se deberían repetir los comandos mencionados anteriormente correspondiente a la primera practica.
+
 ### Herramientas y Librerías Utilizadas
 
 - **Frameworks y Librerías Principales:**
