@@ -39,11 +39,152 @@ sistema desplegado:
 ## Integración con otros equipos
 Nombre-del-equipo: breve descripción de la integración
 
-## Resumen ejecutivo (800 palabras aproximadamente)
+## Resumen ejecutivo 
+
+## Descripción del sistema
+En este proyecto, se nos solicita hacer, por medio de un fork, una serie de implementaciones en el proyecto llamado "Uvlhub", desarrollado previamente por el departamento encargado de esta asignatura. Además, se nos solicitó implementar una serie de automatizaciones que agilizaran el proceso, así como implementar una Integración Continua y Despliegue Continuo.
+
+Para esto, nuestro equipo "Pescaito-Team" realizó una elección de que work items ibamos a desarrollar, de un listado que nos era proporcionado. Escogimos los mencionados arriba; por un lado "Fakenodo", el cual era obligatorio, y proseguimos por la elección del resto de Work Items, los cuales fueron escogidos como se nos indico, un work item por miembro de equipo (6 miembros, por lo tanto 6 work items), y dos de cada dificultad, siendo estas low, medium y hard. Así, los escogidos inicialmente serían: 
+
+### Fakenodo (High)
+
+Este WI trata de sustituir las funcionalidades dadas por la API de Zenodo, por un Mock llamado "Fakenodo", el cual realizaria en local todos los procesos realizados por la API.
+
+Esto implico:
+
+- Estudio y conocimiento previo de las funciones de Zenodo en el proyecto inicial
+- Desarrollo de servicio y rutas adicionales, con sus funcionalidades y restricciones logicas
+- Correccion de llamadas a la API de zenodo, sustituidas por llamadas a los servicios y rutas de Fakenodo implementadas.
+- Adición de botones que sirvan para llamar a las funciones creadas/actualizadas
+
+Como funcionalidades añadidas, entonces, tendriamos:
+
+- Upload de un dataset por via local, con el guardado del deposition los datos de los dataset y sus metadatos en local.
+- Generación de DOI para su sincronización
+- Opción de sincronizado y desincronizado de los dataset, siendo publicados cuando están sincronizados, y por tanto, visibles para el resto de usuarios
+
+Adicionalmente:
+
+- Un dataset ahora puede ser eliminado si este esta desincronizado (no publicado) por su usuario.
+
+### RateDataset (Medium)
+
+Este WI trata de añadir una funcionalidad que permita a los usuarios ratear los distintos Dataset. 
+
+Esto implico:
+
+- Planteamiento inicial de como seria implementado, como se registraria y calcularia la valoracion
+- Adición de 3 atributos para el calculo de la valoración al modelo de Dataset, conllevando una actualización de la base de datos
+- Creación de modelo rate en dataset, vinculado con un usuario y un dataset, conllevanto una actualización de la base de datos
+- Desarrollo de funciones en repositorio, servicios y rutas para un correcto funcionamiento
+- Adición de botones que sirvan para llamar a las funciones creadas
+- Adición de la valoración media en distintas pantallas
+
+Como funcionalidades añadidas, entonces, tendriamos:
+
+- Valoraciones individuales de cada usuario para distintos datasets, unica para cada usuario en cada dataset
+- Valoracion media de un dataset, visible para todos los usuarios que observen el listado de dataset publicados o los detalles de un dataset 
+
+### View User Profile (Low)
+
+Este WI trata de que cuando un usuario accede a un dataset y ve el autor de dicho dataset, el usuario puede clickear en el nombre del autor y acceder a la información del perfil del otro usuario.
+
+Esto implico:
+
+- Estudio y conocimiento previo de las funciones de Dataset y Profile en el proyecto inicial
+- Desarrollo de rutas adicionales, templates y servicios con sus funcionalidades y restricciones logicas
+- Adición de un hipervínculo en el nombre sel autor que sirvan para llamar a las funciones creadas/actualizadas
+
+Como funcionalidades añadidas, entonces, tendriamos:
+
+- Visualización del perfil de otros usuarios mediante un clickeo en un dataset
+
+### Advanced Filtering (High)
+
+Este WI trata de que cuando un usuario accede a la pestaña de explore, puede buscar diferentes datasets sincronizados mediante un filtrado avanzado de las diferentes características del dataset. 
+
+Esto implico:
+- Estudio y conocimiento previo de las funciones de Explore y Dataset en el proyecto inicial
+- Desarrollo de scripts para que la funcionalidad se ejecutase en el frontend, con sus funcionalidades y restricciones lógicas
+- Adición de bloques de enumerados que sirvan para aplicar el filtrado por la diferentes características
+
+Como funcionalidades añadidas, entonces, tendriamos:
+
+- Visualización de datasets por tipo de publicación, autor, archivos, tags, tamaño y título.
+- Se pueden aplicar más de un filtro a la vez
+- Botón de limpieza de filtro es capaz de poner en valor predeterminado todos los valores para que se vuelvana  mostrar todos los datasets
+
+### Build my dataset (Medium)
+
+Este WI consiste en la implementación de una funcionalidad para crear datasets seleccionando feature models específicos, añadiéndolos a un carrito y, posteriormente, generando el dataset final, el cual descargará automáticamente los feature models seleccionados.
+
+Esto implicó:
+
+- Comprensión de las relaciones entre módulos: Estudio de cómo se vinculan los módulos de dataset, feature model, auth y hubfile dentro del proyecto.
+- Modificaciones en rutas y servicios: Desarrollo y actualización de las rutas y servicios necesarios para soportar la lógica de selección, adición al carrito, y creación del dataset.
+- Interfaz de usuario:
+        - Botón para seleccionar modelos de características (feature models) disponibles.
+        - Botón para añadir modelos seleccionados al carrito.
+        - Botón para generar el dataset a partir de los elementos del carrito.
+- Sincronización y desincronización: Comprender el estado de los datasets (sincronizados y desincronizados) y cómo esto afecta las operaciones de creación y publicación.
+
+### Dashboard (Medium)
+
+Este WI trata sobre la creación de un dashboard que sirva como punto central de información y estadísticas tanto para usuarios registrados como para visitantes no registrados.
+
+Esto implicó:
+
+- Diseño y desarrollo del dashboard:
+  - Generación de vistas diferentes para usuarios registrados y no registrados.
+  - Incorporación de estadísticas relevantes como todas las que estan relacionadas con dataset, con featuremodel,autores y equipos.
+- Interactividad:
+  - Botones para la generación de gráficas relacionadas con las estadísticas mostradas.
+  Exportación:
+    -Botón para que el usuario pueda exportar su dashboard personalizado en formato PDF.
+
+Estas funcionalidades agregaron valor al proyecto al proporcionar a los usuarios una visión consolidada y funcional de sus datos y estadísticas, mientras mantenían la diferenciación entre usuarios registrados y visitantes.
+
+### Search Queries(High)
+
+Este WI tiene como objetivo modificar la funcionalidad de búsqueda para que permita el paso a través de la barra de búsqueda de limitaciones por título, descripción o autor
+
+Esto implicó:
 
 
-## Descripción del sistema (1.500 palabras aproximadamente)
+- Lectura de formato de query desde la barra de búsqueda (argumento:"valor")
+- Lectura de valores lógicos (&&, ||. And y Or lógico respectivamente)
+- Procesamiento de la orden de búsqueda (Transformación del resultado en un arreglo de condiciones en una queries
+- Se crearon las queries para que pudiesen unirse dentro de una misma
+- Testing a través de selenium con casos que sirven como ejemplos de uso
 
+### Remember password (Low)
+
+Este WI tiene como objetivo implementar una funcionalidad que permita a los usuarios recuperar su contraseña de forma segura a través del correo electrónico.
+
+Esto implico:
+
+- Conocimiento sobre recuperar contraseña mediante un correo electrónico enviado desde una cuenta específica de Gmail.
+- Conocimiento de configuración para la integración entre Gmail y la aplicación Flask
+
+Como funcionalidades añadidas, entonces, tendriamos:
+- Recuperación de contraseña con Gmail.
+- Verificación para comprobar y validar el correcto funcionamiento del sistema de recuperación de contraseñas
+- Función de editar la contraseña.
+
+
+
+ --------------------------------------------------------------
+
+ Una vez todo el equipo desarrolló sus Work Item, cada miembro pasó a realizar los test sobre los que fue responsable. Estos test se dividieron en:
+
+- Test Unitarios: pruebas automatizadas que verifican el comportamiento individual de las unidades más pequeñas de un programa, como funciones o métodos. Su objetivo es asegurar que cada parte del código funcione de manera correcta y aislada
+
+- Test de Interfaz: (Selenium): validan que la interfaz de usuario (UI) de una aplicación funcione correctamente y cumpla con las expectativas de usabilidad y comportamiento. Para ellos se utilizó Selenium, una herramienta popular que permite automatizar la interacción con aplicaciones web, simulando acciones del usuario como clics, ingreso de texto y navegación.
+
+- Test de carga (Locust): evalúan el comportamiento de un sistema cuando se somete a una carga alta de usuarios o solicitudes simultáneas. Para ellos se utilizó Locust, herramienta de pruebas de carga basada en Python que permite simular múltiples usuarios concurrentes para medir el rendimiento y la capacidad del sistema.
+
+
+Cada miembro del equipo se encargó de la decisión del tipo de pruebas a utilizar en los WI de los que era responsable, con una lógica detrás del porque esta toma de decisión. Una vez se realizó, se encargó de la implementacion dde las mismas
 
 ## Visión global del proceso de desarrollo (1.500 palabras aproximadamente)
 
@@ -76,7 +217,7 @@ Las políticas establecidas se han venido aplicando de manera progresiva en el p
  
 Para detalles completos sobre las políticas de gestión de commits, issues y ramas, consulta los documentos específicos alojados en la misma carpeta. 
 
-## Entorno de desarrollo (800 palabras aproximadamente)
+## Entorno de desarrollo
 
 El desarrollo del proyecto se llevó a cabo en un entorno configurado de manera robusta y eficiente, con el objetivo de asegurar la reproducibilidad, estabilidad y facilidad de colaboración entre los miembros del equipo. A continuación, se describen los componentes esenciales del entorno y las herramientas utilizadas:
 
@@ -191,6 +332,13 @@ La aplicación estará disponible en: **http://localhost:5000.**
 ## Ejercicio de propuesta de cambio
 
 ## Conclusiones y trabajo futuro
+
+Como conclusiones, nos hemos visto envueltos en todos los procesos de evolución y gestión de la configuración vistos en la asignatura. Hemos podido observar lo util que es automatizar partes del proyecto para agilizar todos los procesos, así como distintas opciones de despliegue. También añadir como, a pesar de tener experiencia previamente en implementación de WI, no ha sido hasta ahora que lo hemos realizado siguiendo unas políticas estrictas en función a lo recomendado por la asignatura, las cuales hemos tenido que seguir a rajatabla, para una mayor profesionalidad, y claridad tanto para los usuarios implicados en el desarrollo como para cualquier persona externa que quiera observar commits, issues o ramas concretas en busca de información precisa.
+
+En resumen, hemos podido observar casos reales de las distintas metodologías, procedimientos y tecnicas que nos han sido enseñadas. Así, nos hemos visto en el proceso de aprendizaje, entendiendo que hacía cada recurso implementado, enfrentandonos a su implementación y observando su utilidad una vez estaban en pleno funcionamento.
+
+Para futuro, nos quedamos con todos los puntos positivos de aprendizaje mencionados anteriormente, pero también destacamos puntos a mejorar, como seguir unas políticas no demasiado enrrevesadas desde el inicio para agilizar el proceso, o adecuarse todos los miembros a los tiempos marcados para cada milestone, para evitar retrasos posteriores
+
 
 
 https://github.com/EGCETSII/Entregables/wiki/Documento-del-proyecto
