@@ -32,8 +32,8 @@ sistema desplegado: https://uvlhub-pescaito-hub.onrender.com
 | Portillo Sánchez, Alonso | 85    | 17      | 1210   | 11   | 18     | Realizacion de FakeNodo, además de incluir la vista del perfil de usuario y el filtro avanzado en la bsuqueda de datasets |
 | Sevillano Barea, Alejandro | 100    | 61      | 2769   | 9   | 16     | Construir un dataset seleccionando feature models y añadiendolos como si fuera un carrito y que se te descarguen automáticamente. Luego ese dataset se muestra en la lista de datasets. Realizacion de un dashboard para usuarios y para personas que no están registradas. |
 | Espinosa Naranjo, Pablo  | 90    | 31      | 1187   | 7   | 11     | Realizacion de FakeNodo, ha incluido una serie de botones que permiten que cada dataset pueda ser valorado entre 1 a 5 estrellas modificando la base de datos para su incorporación  |
-| Harana Mancilla, Rafael  | 30    | 22      | 908   | 4   | 6     | Realización de search queries: consiste en adaptar el motor de búsqueda para permitir cierto nivel de búsqueda programática de datasets  |
-| **TOTAL**          | 440   | 199     | 21086  | 58  | 70    | Se han realizado 6 WI mas el FakeNodo, ademas de intentarse e implimentarse parte de otros 2  |
+| Harana Mancilla, Rafael  | 30    | 22      | 908   | 6   | 4     | Realización de search queries: consiste en adaptar el motor de búsqueda para permitir cierto nivel de búsqueda programática de datasets  |
+| **TOTAL**          | 440   | 199     | 21086  | 60  | 68    | Se han realizado 6 WI mas el FakeNodo, ademas de intentarse e implimentarse parte de otros 2  |
 
 
 ## Integración con otros equipos
