@@ -23,7 +23,7 @@ Miembro	| Implicación:
 
 ## Enlaces de interés:
 repositorio de código: https://github.com/pescaito-team/pescaito-hub
-sistema desplegado:
+sistema desplegado: https://uvlhub-pescaito-hub.onrender.com
 
 | Miembro del equipo | Horas | Commits | LoC  | Test | Issues | Work Item          |
 |--------------------|-------|---------|------|------|--------|--------------------|
@@ -31,14 +31,13 @@ sistema desplegado:
 | Garate Fuentes, Yesica | HH    | XX      | YY   | ZZ   | II     |  Permitir al usuario recibir una contraseña si tiene la configuración necesaria y restablecer su contraseña. Se intento implementar el WI search querys el cual se avanzo hasta el punto de poder buscar por cadenas exactas en el buscador de datasets  |
 | Portillo Sánchez, Alonso | 85    | 17      | 1210   | 11   | 18     | Realizacion de FakeNodo, además de incluir la vista del perfil de usuario y el filtro avanzado en la bsuqueda de datasets |
 | Sevillano Barea, Alejandro | 100    | 61      | 2769   | 9   | 16     | Construir un dataset seleccionando feature models y añadiendolos como si fuera un carrito y que se te descarguen automáticamente. Luego ese dataset se muestra en la lista de datasets. Realizacion de un dashboard para usuarios y para personas que no están registradas. |
-| Espinosa Naranjo, Pablo  | HH    | XX      | YY   | ZZ   | II     | Realizacion de FakeNodo, ha incluido una serie de botones que permiten que cada dataset pueda ser valorado entre 1 a 5 estrellas modificando la base de datos para su incorporación  |
+| Espinosa Naranjo, Pablo  | 90    | 31      | 1187   | 7   | 11     | Realizacion de FakeNodo, ha incluido una serie de botones que permiten que cada dataset pueda ser valorado entre 1 a 5 estrellas modificando la base de datos para su incorporación  |
 | Harana Mancilla, Rafael  | HH    | XX      | YY   | ZZ   | II     | Descripción breve  |
 | **TOTAL**          | tHH   | tXX     | tYY  | tZZ  | tII    | Se han realizado 6 WI mas el FakeNodo, ademas de intentarse e implimentarse parte de otros 2  |
 
 
 ## Integración con otros equipos
-Nombre-del-equipo: breve descripción de la integración
-
+N/P
 ## Resumen ejecutivo 
 
 ## Descripción del sistema
@@ -350,6 +349,15 @@ Tras esto, se deberían repetir los comandos mencionados anteriormente correspon
 
 
 ## Ejercicio de propuesta de cambio
+
+Se solicitará actualizar una funcionalidad, en este caso rate-dataset, haciendo que ahora se pueda valorar del 1 al 6
+
+Se realizará todo el proceso de trabajo seguido a lo largo de trabajo, con sus correspondientes aperturas de código, issues…
+
+Tras las correspondientes ediciones, se hará la pull request a la rama principal, siguiendo los procedimientos seguidos hasta ahora.
+
+
+
 
 ## Conclusiones y trabajo futuro
 
