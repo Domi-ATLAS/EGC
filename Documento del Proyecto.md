@@ -14,7 +14,7 @@ Miembro	| Implicación:
 | Apellidos, Nombre | [1-10] |
 |-------------------|--------|
 | Pizarro López, Eduardo | [8] |
-| Garate Fuentes, Yesica | [6] |
+| Garate Fuentes, Yesica | [7] |
 | Portillo Sánchez, Alonso | [10] |
 | Sevillano Barea, Alejandro | [10] |
 | Espinosa Naranjo, Pablo | [10] |
